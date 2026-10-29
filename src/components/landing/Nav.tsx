@@ -30,6 +30,8 @@ export function Nav() {
     alt="UnicornDev" 
     className="h-8 w-auto object-contain" 
   />
+    <span className="font-display text-lg font-semibold tracking-tight">UnicornDev</span>
+
 </a>
 
 
