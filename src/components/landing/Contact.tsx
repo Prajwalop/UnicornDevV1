@@ -3,7 +3,7 @@ import { ArrowRight, Mail } from "lucide-react";
 import { SectionHead } from "./Services";
 
 // NOTE: placeholder inbox — swap for the real business email before going live.
-const CONTACT_EMAIL = "hello@unicorndev.in";
+const CONTACT_EMAIL = "unicorndev.web@gmail.com";
 
 type FormState = {
   name: string;
