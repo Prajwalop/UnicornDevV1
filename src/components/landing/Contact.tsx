@@ -362,9 +362,12 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-2.5">
-              <span className="grid size-8 place-items-center rounded-lg bg-primary font-display text-sm font-bold text-primary-foreground">
-                U
-              </span>
+              <img 
+  src="/logo.png" 
+  alt="UnicornDev" 
+  className="h-8 w-auto object-contain" 
+/>
+
               <span className="font-display text-lg font-semibold">UnicornDev</span>
             </div>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
