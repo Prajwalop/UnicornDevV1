@@ -24,12 +24,14 @@ export function Nav() {
         aria-label="Main"
         className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6"
       >
-        <a href="#top" className="flex items-center gap-2.5" aria-label="UnicornDev home">
-          <span className="grid size-8 place-items-center rounded-lg bg-primary font-display text-sm font-bold text-primary-foreground">
-            U
-          </span>
-          <span className="font-display text-lg font-semibold tracking-tight">UnicornDev</span>
-        </a>
+<a href="#top" className="flex items-center gap-2.5" aria-label="UnicornDev home">
+  <img 
+    src="/logo.png" 
+    alt="UnicornDev" 
+    className="h-8 w-auto object-contain" 
+  />
+</a>
+
 
         <div className="hidden items-center gap-7 md:flex">
           {LINKS.map((l) => (
